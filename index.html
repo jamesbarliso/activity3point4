@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <div class="profile-box">
+         <img src="/james.jpg" class="profile-pic" alt="Error" width="240">
+         <pre><strong>Name: </strong>Lories James Barliso</pre>
+         <pre><strong>School: </strong><a href="http://lhdsfci.com/">LUIS H. DILANCO SR. FOUNDATION COLLEGE, INC.</a></pre>
+         <pre><strong>Year: </strong>2nd year</pre>
+         <pre><strong>Email: </strong>jamesbarliso1@gmail.com</pre>
+         <pre><strong>Contact: </strong>+63 981 663 8317</pre>
+      </div>
+      <div class="tab">
+         <caption>Table</caption>
+         <table>
+            <th>Id</th>
+            <th>First Name</th>
+            <th>Surname</th>
+            <th>Course</th>
+            <th>Year</th>
+            <th>Birthdate</th>
+            <th>Contact No.</th>
+            <tr>
+               <td>0111</td>
+               <td>James</td>
+               <td>Barliso</td>
+               <td>BSCS</td>
+               <td>2nd</td>
+               <td>07/20/2002</td>
+               <td>+63 981 663 8655</td>
+               
+            </tr>
+            <tr>
+               <td>0101</td>
+               <td>Karl</td>
+               <td>Hernadez</td>
+               <td>BTLED</td>
+               <td>2nd</td>
+               <td>07/20/2002</td>
+               <td>+63 981 663 8376</td>
+            </tr>
+            <tr>
+               <td>1110</td>
+               <td>Juan</td>
+               <td>Dela Cruz</td>
+               <td>BSIT</td>
+               <td>2nd</td>
+               <td>07/20/2002</td>
+               <td>+63 981 663 8342</td>
+            </tr>
+            <tr>
+               <td>0101</td>
+               <td>Karl</td>
+               <td>Guzman</td>
+               <td>BSIS</td>
+               <td>2nd</td>
+               <td>07/20/2002</td>
+               <td>+63 981 663 8389</td>
+            </tr>
+            <tr>
+               <td>0211</td>
+               <td>kevin</td>
+               <td>Gabot</td>
+               <td>BSIS</td>
+               <td>2nd</td>
+               <td>07/20/2002</td>
+               <td>+63 981 673 7362</td>
+            </tr>
+            <tr>
+               <td>1100</td>
+               <td>Don</td>
+               <td>Quixito</td>
+               <td>BSCE</td>
+               <td>2nd</td>
+               <td>07/20/2002</td>
+               <td>+63 989 687 8997</td>
+            </tr>
+            <tr>
+               <td>0122</td>
+               <td>Stephen</td>
+               <td>Gomez</td>
+               <td>BSIS</td>
+               <td>2nd</td>
+               <td>07/20/2002</td>
+               <td>+63 971 689 8389</td>
+            </tr>
+            <tr>
+               <td>0102</td>
+               <td>John</td>
+               <td>Isidro</td>
+               <td>BSIS</td>
+               <td>2nd</td>
+               <td>07/20/2002</td>
+               <td>+63 987 973 8897</td>
+            </tr>
+            <tr>
+               <td>0201</td>
+               <td>James</td>
+               <td>Bangga</td>
+               <td>BSIS</td>
+               <td>2nd</td>
+               <td>07/20/2002</td>
+               <td>+63 981 783 8387</td>
+            </tr>
+         </table>
+      </div>
+   <div class="container">
+      <form>
+        <!-- text -->
+        <label for="name">name</label>
+        <input type="text" placeholder="Lories James A. Barliso" name="name" />
+       
+        <br>
+        <label for="email">email</label>
+        <input type="email" placeholder="sample@email.com" name="email" />
+
+        <br>
+        <label for="experience">experience</label>
+        <input
+          type="number"
+          min="0"
+          placeholder="in years"
+          name="experience"
+        />
+
+        <!-- radio -->
+        <label for="grad">graduated or not?</label>
+        <article>
+          <input type="radio" name="grad" value="no" />no
+          <input type="radio" name="grad" value="yes" />yes
+        </article>
+
+        <!-- checkboxes -->
+        <label for="skills">enter your skills</label>
+        <article>
+          <input type="checkbox" name="skills" value="HTML" />HTML
+          <input type="checkbox" name="skills" value="CSS" />CSS
+          <input type="checkbox" name="skills" value="Javascript" />JS
+          <input type="checkbox" name="skills" value="Python" />Python
+        </article>
+
+        <!-- date -->
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" />
+
+        <!-- file --><br>
+        <label for="resume">Attach your resume</label>
+        <input type="file" name="resume" />
+
+        <!-- url --><br>
+        <label for="portfolio">Portfolio Link</label>
+        <input type="url" name="portfolio" placeholder="Url of Portfolio" />
+
+        <article>
+          <!-- submit -->
+          <input type="submit" value="SEND" name="submit" class="btn" />
+          <!-- reset -->
+          <input type="reset" value="CLEAR" name="reset" class="btn" />
+        </article>
+      </form>
+   </div>
+</body>
+</html>

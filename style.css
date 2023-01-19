@@ -1,0 +1,78 @@
+body {
+    font-size: 16pt;
+    display: block;
+    background-color: papayawhip;
+}
+.profile-box{
+   background: rgba(124, 135, 127, .9);
+   box-shadow: 0 15px 20px rgba( 0, 0, 0, .2);
+   padding: 20px;
+   color: #fff;
+   position: relative;
+   border-radius: 2%;
+   margin: 5px;
+}
+.profile-pic{
+   width: 240px;
+   border-radius: 25%;
+   background: #fff;
+   padding: 10px;
+}
+.tab{
+   background: rgba(124, 135, 127, .9);
+   box-shadow: 0 15px 20px rgba( 0, 0, 0, .2);
+   padding: 20px 20px;
+   color: #fff;
+   position: relative;
+   border-radius: 2%;
+   margin: 5px;
+}
+table{
+   width: 100%;
+}
+table, th, td{
+   border: 1px solid #000;
+   border-collapse: collapse;
+}
+th, td{
+   padding: 10px;
+}
+th{
+   text-align: left;
+}
+input, label{
+   font-size: inherit;
+  
+}
+input{
+   border-color: #A69A9A;
+}
+.container{
+   background: rgba(124, 135, 127, .9);
+   box-shadow: 0 15px 20px rgba( 0, 0, 0, .2);
+   padding: 20px;
+   color: #fff;
+   position: relative;
+   border-radius: 2%;
+   margin: 5px;
+}
+::placeholder{
+   color: #999090;
+}
+
+label {
+  display: block;
+  text-transform: capitalize;
+  margin: 1.25rem 0.2rem 0.35rem;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  align-self: center;
+}
+
+
+article {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  align-self: center;
+}
